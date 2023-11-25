@@ -67,9 +67,6 @@ body {
     background: var(--bg-color);
 }
 
-.logo:focus {
-    outline: 2px solid #005BD3;
-}
 
 
 /* navigation css */
@@ -255,6 +252,12 @@ nav {
     margin-bottom: 2rem;
     gap: 10px;
 }
+/* nav item 1 */
+.logo:focus {
+    outline: 2px solid #005BD3;
+}
+/* -------------------nav item--------------- */
+/* nav item2 */
 /* search bar */
 .search-bar {
     border: 1px solid var(--grey-100);
@@ -290,6 +293,7 @@ nav {
     color: #B5B5B5;
     font-size: 14px;
 }
+/* -------------------------------------------------- */
 
 /* avater */
 .avatar-container {
@@ -353,8 +357,8 @@ nav {
     color: var(--font-mid);
     border-radius: 10px;
 }
-
-/* navbar css */
+/* ------------avatar link--------------------- */
+/* ------------navbar css done------------------ */
 
 
 /* main section css */
@@ -715,7 +719,7 @@ p>a {
 }
 
 @media screen and (max-width: 739px) {
-    .davii {
+    .superking {
         display: none;
     }
 
