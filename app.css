@@ -6,6 +6,9 @@
     box-sizing: border-box;
     user-select: none;
 }
+label{
+    cursor: default;
+}
 button{
     cursor: pointer;
 }
@@ -33,12 +36,63 @@ button{
 header{
     background-color: hsl(0, 0%, 10%);
     min-height: 10vh;
+    color: #F1F1F1;
 }
 nav{
+    max-width: 1400px;
     border: 2px solid yellow;
+    margin: auto auto;
     display:flex ;
-    /* margin: auto auto; */
+    justify-content: space-between;
 }
+.form-control input{
+    background-color: #616161;
+
+}
+.form-control span{
+    background-color: #616161;
+
+}
+
+.search label{
+    border: 1px solid #616161;
+    background: #322F33;
+    border-radius: 8px;
+    width: 100%;
+    /* max-width: 500px; */
+    color: #fbfbfb;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+.search label:hover {
+    border: 1px solid white;
+}
+.search label:focus-within {
+    border: 2px solid white !important;
+}
+.search label input::placeholder {
+    color: #B5B5B5;
+    font-size: 14px;
+}
+.search label input {
+    background: #322F33;
+    /* border: 0px; */
+    border: none;
+    outline: 0px;
+    color: #fbfbfb;
+    /* width: 100%; */
+    max-width: 800px;
+    margin-left: 0.5rem;
+}
+.search label input:focus-visible{
+border: none;
+}
+.search label input:active{
+border: none;
+}
+
+
 
 .menu{
     display: flex;
@@ -46,4 +100,7 @@ nav{
 .user-collection{
     background-color: #616161;
     display: flex;
+}
+.user-collection button{
+    background-color: #36fba1;
 }
